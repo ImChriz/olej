@@ -65,9 +65,9 @@
           </ul>
         </li>
         <!-- <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_wishlist }}</span></a></li> -->
+		<li><a href="http://www.instagram.com/" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="http://www.facebook.com/" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
         <li><a href="{{ shopping_cart }}" title="{{ text_shopping_cart }}"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_shopping_cart }}</span></a></li>
-		<li><a href="http://www.instagram.com/" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-		<li><a href="http://www.facebook.com/" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
         <!-- <li><a href="{{ checkout }}" title="{{ text_checkout }}"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_checkout }}</span></a></li> -->
       </ul>
     </div>
@@ -91,7 +91,7 @@
 </header> -->
 <div class="container">
 	  <div>
-        <div id="logo">{% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="img-responsive" /></a>{% else %}
+        <div id="logo" class="pull-left">{% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="img-responsive" /></a>{% else %}
           <h1><a href="{{ home }}">{{ name }}</a></h1>
           {% endif %}</div>
 	  {{ menu }}
