@@ -79,8 +79,7 @@ div.required .control-label:before {
 }
 /* top */
 #top {
-	background-color: #EEEEEE;
-	border-bottom: 1px solid #e2e2e2;
+	background-color: #555555;
 	padding: 4px 0px 3px 0;
 	margin: 0 0 20px 0;
 	min-height: 40px;
@@ -131,6 +130,8 @@ div.required .control-label:before {
 /* search */
 #search {
 	margin-bottom: 10px;
+	float:left;
+	max-width:200px;
 }
 #search .input-lg {
 	height: 40px;
