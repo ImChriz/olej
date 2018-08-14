@@ -1,6 +1,22 @@
 <?php
 class ControllerCommonMenu extends Controller {
 	public function index() {
+		
+		//information
+		$this->load->model('catalog/information');
+
+		$data['informations'] = array();
+
+		foreach ($this->model_catalog_information->getInformations() as $result) {
+			if ($result['top']) {
+				$data['informations'][] = array(
+					'title' => $result['title'],
+					'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+				);
+			}
+		}
+	
+	
 		$this->load->language('common/menu');
 
 		// Menu
