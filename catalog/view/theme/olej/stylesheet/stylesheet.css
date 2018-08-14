@@ -95,9 +95,9 @@ div.required .control-label:before {
 #top #form-language .language-select:hover {
 	text-shadow: none;
 	color: #ffffff;
-	background-color: #229ac8;
+/* 	background-color: #229ac8;
 	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-	background-repeat: repeat-x;
+	background-repeat: repeat-x; */
 }
 #top .btn-link, #top-links li, #top-links a {
 	margin: 0 5px 0 10px;
@@ -106,13 +106,13 @@ div.required .control-label:before {
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
-	color: #444;
+	color: #d1be6c;
 }
 #top-links .dropdown-menu a {
 	text-shadow: none;
 }
 #top-links .dropdown-menu a:hover {
-	color: #FFF;
+	color: #d1be6c;
 }
 #top .btn-link strong {
 	font-size: 14px;
@@ -227,7 +227,7 @@ color: #d1be6c;
 	padding: 3px 20px;
 	clear: both;
 	line-height: 20px;
-	color: #333333;
+	color: #e6e6e6;
 	font-size: 12px;
 }
 #menu .dropdown-inner li a:hover {
@@ -412,12 +412,12 @@ footer h5 {
 	font-size: 15px;
 }
 .btn-default {
-	color: #777;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	background-color: #e7e7e7;
+	color: #000;
+	background-color: #aba6a6;
+	/* 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 	background-image: linear-gradient(to bottom, #eeeeee, #dddddd);
 	background-repeat: repeat-x;
-	border-color: #dddddd #dddddd #b3b3b3 #b7b7b7;
+	border-color: #dddddd #dddddd #b3b3b3 #b7b7b7; */
 }
 .btn-primary {
 	color: #ffffff;
@@ -748,3 +748,82 @@ h2.price {
     background-image: none;
     background-color: #df5c39;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	
+	
+	background-color: transparent;
+}
+
+
+.dropdown-menu{
+	
+	
+	background-color:#6b6a6a;
+}
+
+
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+	
+	outline: none;
+	
+}
+
+
+
+
+
+
+.btn-default:hover {
+    color: #333;
+    background-color: #807c7c;
+    border-color: #adadad;
+}
+
+
+    .parent-container {
+
+        position: relative;
+        height:100%;
+        width: 100%;
+    }
+
+    .child-container {
+
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
